@@ -1,11 +1,21 @@
-<Html>  
-    <head>   
-    <title>  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  
     Application Form
     </title>  
-    </head>  
-    
-    <br>  
+    </head><br>  
     <br>  
     <form>  
     <label> Name: </label>         
@@ -35,11 +45,17 @@
     <option value="FULL STACK DEVELOPER"> FULL STACK DEVELOPER </option>  
     <option value="CYBER SECURITY"> CYBER SECURITY </option>   
     </select>  <br><br>
-    <label> Choose your browser from the list:</label>     
-    <input type="text" name=""  size="20"/> <br> <br> 
-    
-    <textarea name="" placeholder="Give a brief summary about you"  cols="20" rows="2"></textarea> <br><br>
-    <input type="button" value="Submit"/>  
+    <div>
+        <span>Choose your browser from the list :</span>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+        </datalist>
+        <br><input type="text" placeholder="Give a Brief Summary About You " cols="20" rows="2">
+    </div><br>
+    <input type="button" value="Submit"/>
     </form>  
     </body>  
     </html>  
